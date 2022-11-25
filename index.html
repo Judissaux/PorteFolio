@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Mon portfolio</title>
+</head>
+
+<body id="accueil">
+  <header>
+    <h1>Justin Dissaux</h1>
+    <nav>
+        <ul class="toggle">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#presentation">Présentation</a></li>
+            <li><a href="#projets">Projets</a></li>
+        </ul>
+    </nav>
+    <p class="menu-hamburger"><i class="fa-solid fa-bars"></i></p>
+</header>
+
+<div class="accueil" >
+     <h2>Justin DISSAUX</h2>
+     <h3>FULL STACK DEVELOPER</h3>
+     <div class="contact"><p>Say <a href="mailto:justin.dissaux@laposte.net">Hello</a> &#128516 </p>
+        <a href="https://www.linkedin.com/in/justin-dissaux/"><i class="fa-brands fa-linkedin"></i></a></div>
+    
+     
+
+</div>
+
+<section class="presentation" id="presentation">
+    <h2>Présentation</h2>
+    <div class="containPresentation">
+    <div class="textePresentation">
+    <h3>Développeur Full Stack en formation.</h3>
+    <h4>J'ai réalisé des projets en utilisant du HTML/CSS/JAVASCRIPT et PHP.</h4>
+    <p class="langage"><i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-square-js"></i> <i class="fa-brands fa-php"></i></p>
+    </div>
+    <img src="img/moi.jpg" alt="Photo justin Dissaux"></div>
+       
+</section>
+
+ <section class="projets" id="projets">
+    <h2>Mes projets réalisés</h2>
+    <div class="cardProjets">
+    <div class="card">
+        <div class="image p1"></div>
+        <div class="text">
+            <h3>Wysiwyg</h3>
+            <p>Permet de retranscrire les balises HTML en direct</p>
+            <a href="https://judissaux.github.io/WYSIWYG/" target="_blank">Lien vers le projet</a>
+        </div>
+        <div class="prog">
+           <h4>Langages utilisées</h4>
+           <p><i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-square-js"></i> </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image p2"></div>
+        <div class="text">
+            <h3>Morpion</h3>
+            <p>Morpion en mode joueur contre joueur ou joueur contre ordinateur</p>
+            <a href="https://judissaux.github.io/Morpion/" target="_blank">Lien vers le projet</a>
+        </div>
+        <div class="prog">
+           <h4>Langages utilisées</h4>
+           <p><i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-square-js"></i> </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image p3"></div>
+        <div class="text">
+            <h3>Calories Tracker</h3>
+            <p>Une application permettant de suivre ses calories sur 10 jours et de connaitre son IMC</p>
+            <a href="http://5.135.101.197/connexion.php" target="_blank">Lien vers le projet</a>
+        </div>
+        <div class="prog">
+           <h4>Langages utilisées</h4>
+           <p><i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-square-js"></i> <i class="fa-brands fa-php"></i></p>
+        </div>
+    </div>
+    </div>
+  </section>
+
+
+<footer>
+    <a href="https://github.com/Judissaux"><i class="fa-brands fa-github"></i></a>
+   <p>© PorteFolio Justin DISSAUX 2022</p>
+   
+</footer>
+
+<script>
+    const hamburger = document.querySelector(".menu-hamburger");
+    const toggle = document.querySelector(".toggle");
+
+    hamburger.addEventListener("click", ()=>{
+        toggle.classList.toggle("hamburger");
+    })
+</script>
+</body>
+</html>
