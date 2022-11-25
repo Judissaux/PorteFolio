@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Great+Vibes&family=Montserrat:wght@300&display=swap');
 
-
 html{
     scroll-behavior: smooth;
 }
@@ -15,8 +14,6 @@ body{
     background: linear-gradient(to right, #3a6186, #ce234d);
     
 }
-
-
 /*____________________ HEADER_____________ */
 header{
     display: flex;
@@ -55,13 +52,11 @@ nav ul li a{
     color: white;
     font-size: 1rem;
     
-    
 }
 
 .menu-hamburger{
     display: none;
 }
-
 
 /* ________________________ACCUEIL _________ */
 
@@ -100,7 +95,6 @@ nav ul li a{
 
 .accueil a{
     color:white;
-   
 }
 
 .contact{
@@ -325,6 +319,7 @@ footer a:hover{
 } 
   
 @media (max-width: 530px){
+
     .menu-hamburger{
         display: block;
         position: absolute;
@@ -340,14 +335,15 @@ footer a:hover{
         flex-direction: column;
         margin-top: 150px;
         margin-right: -150px;
-        background-color: rgb(41, 40, 40) ;
+        background-color: rgb(41, 40, 40,0.42) ;
         transition: all 1s ease;
+      
     }
 
     nav ul li{
         padding: 0;
         margin-top: 3.5px;
-        
+          
     }
 
     nav ul li a{
@@ -360,15 +356,15 @@ footer a:hover{
     }
 
     .accueil h2{
-        font-size: 2rem;
+        font-size: 3.5rem;
     }
 
     .accueil h3{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .contact{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     
     .langage i{
@@ -381,9 +377,20 @@ footer a:hover{
         margin: 0 auto;
      }
 }
+@media (max-width: 360px){
 
+    .accueil h2{
+        font-size: 2.5rem;
+    }
 
-@media (max-width: 350px){
+    .accueil h3{
+        font-size: 1.5rem;
+    }
+
+    .contact{
+        font-size: 1rem;
+    }
+
     .textePresentation h3{
         font-size: 1rem;
       
