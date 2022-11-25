@@ -310,7 +310,12 @@ footer a:hover{
         margin: 10px;
         width: 250px;
         grid-template-columns: 250px;
-        grid-template-rows: 180px 160px 110px;
+        grid-template-rows: 180px 180px 110px;
+        
+    }
+
+    .card:hover{
+        transform: none;
     }
 
     .langage i{
